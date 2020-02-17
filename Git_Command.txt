@@ -1,0 +1,7 @@
+git config --global user.name "puspo1997"
+git config --global user.email puspo.neub97@gmail.com
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/puspo1997/Puspo.git
+git push -u origin master
