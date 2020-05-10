@@ -1,0 +1,14 @@
+open-->anaconda prompt
+
+conda install -c conda-forge opencv
+
+
+But if this does not work ::
+
+Problem------------>
+Solving environment: failed with initial frozen solve. Retrying with flexible solve.
+
+Solve-------------->
+conda create --name myenv
+conda activate myenv
+conda install -c conda-forge opencv
